@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peter_river">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/layout_padding"
+        android:paddingRight="@dimen/layout_padding"
+        android:paddingTop="@dimen/layout_padding"
+        android:paddingBottom="@dimen/layout_padding"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/linear_layout_button_text_size"
+                android:text="@string/horizontal"/>
+            <!-- example writen in activity_linear_layout.xml-->
+
+            <Button
+                style="@style/linear_layout_horizontal_button"/>
+            <!-- same example as above but whole parameters and atributes are writen in styles.xml -->
+
+            <Button
+                style="@style/linear_layout_horizontal_button"/>
+
+            <Button
+                style="@style/linear_layout_horizontal_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/linear_layout_button_text_size"
+                android:text="@string/vertical"/>
+            <Button
+                style="@style/linear_layout_vertical_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:textSize="20sp"
+                android:text="@string/weight"/>
+
+            <Button
+                style="@style/linear_layout_weight_button"/>
+
+            <Button
+                style="@style/linear_layout_weight_button"/>
+
+            <Button
+                style="@style/linear_layout_weight_button"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cawabanga.com.tvz_workexample1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/monster"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RelativeLayoutActivity"
+            android:label="RelativeLayout"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.EditTextActivity"
+            android:label="EditText"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.LinearLayoutActivity"
+            android:label="LinearLayout"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.ImageViewActivity"
+            android:label="ImageView"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.ActivityExampleActivity"
+            android:screenOrientation="portrait"
+            android:label="ActivityExample">
+        </activity>
+        <activity android:name=".activity.TextViewActivity"
+            android:label="TextView"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.ScrollViewActivity"
+            android:label="ScrollViewActivity">
+        </activity>
+        <activity android:name=".activity.CardView"
+            android:label="CardView">
+        </activity>
+        <activity android:name=".activity.RecycleView"
+            android:label="RecycleView">
+        </activity>
+        <activity android:name=".activity.ListViewActivity"
+            android:label="ListView"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+
+</manifest>

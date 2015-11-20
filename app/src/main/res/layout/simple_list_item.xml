@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/peter_river"
+    android:layout_height="match_parent">
+
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_text"
+        android:text="List item text"
+        android:background="@layout/border"/> <!-- Backgound (border.xml) je dodan
+        iz razloga da vidim kako wrap content djeluje na textView-->
+
+</LinearLayout>
